@@ -1,0 +1,31 @@
+unit PessoasEN;
+
+interface
+
+uses StrUtils, SqlTimSt, ExtCtrls, Classes;
+
+type
+  TPessoas = class
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    constructor Create;
+    destructor Destroy; override;
+  end;
+
+implementation
+
+{ TPessoas }
+
+constructor TPessoas.Create;
+begin
+  inherited Create;
+end;
+
+destructor TPessoas.Destroy;
+begin
+  inherited Destroy;
+end;
+
+end.

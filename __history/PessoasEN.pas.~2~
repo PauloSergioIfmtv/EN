@@ -1,0 +1,14 @@
+unit PessoasEN;
+
+interface
+
+uses StrUtils, SqlTimSt, ExtCtrls, Classes;
+
+type
+  TPessoas = class
+  private
+  end;
+
+implementation
+
+end.
